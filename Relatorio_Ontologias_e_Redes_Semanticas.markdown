@@ -22,6 +22,7 @@ Redes semânticas são grafos direcionados ou não direcionados onde:
 
 Redes semânticas são predecessoras das ontologias modernas e, embora menos formais, são amplamente usadas em processamento de linguagem natural, grafos de conhecimento e sistemas de raciocínio.
 
+## Exemplo
 ![Diagrama de uma rede semantica](https://set.org.br/wp-content/uploads/2023/11/Knowledge-Graphs.png)
 
 ### Princípios Chave
