@@ -210,14 +210,6 @@ consulta_usuarios_por_genero("Acao")
 consulta_filmes_por_ano(2000)
 ```
 
-### Execução
-O código está hospedado em um notebook do Google Colab: [Link para o Notebook](#). Ao executar o código, ele gera recomendações de filmes com base nos gêneros preferidos do usuário (ex.: "Inception" para um usuário que gosta de Ficção Científica).
-
-### Saída Esperada
-```
-Filme Recomendado: Inception
-```
-
 ## Conclusão
 Ontologias e redes semânticas são ferramentas poderosas para representação e raciocínio de conhecimento em IA. Elas permitem interoperabilidade, suportam raciocínio complexo e alimentam aplicações em diversos domínios, como saúde, motores de busca e sistemas de recomendação. Nosso sistema de recomendação de filmes demonstra como ontologias podem ser aplicadas de forma prática usando ferramentas acessíveis como RDFLib e SPARQL. Trabalhos futuros poderiam expandir a ontologia com propriedades adicionais (ex.: atores, avaliações) para melhorar a precisão das recomendações.
 
