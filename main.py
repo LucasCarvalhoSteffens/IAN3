@@ -75,8 +75,11 @@ def consulta_recomendacao_usuario(usuario):
     """
     results = g.query(query)
     print(f"\nRecomendações para {usuario}:")
+    filmes_exibidos = set()
     for row in results:
-        print(f"Filme: {row.nome}, Ano: {row.ano}")
+        if row.filme not in filmes_exibidos:
+            print(f"Filme: {row.nome}, Ano: {row.ano}")
+            filmes_exibidos.add(row.filme) 
 
 # Consulta 2: Listar filmes de um gênero específico
 def consulta_filmes_por_genero(genero):
