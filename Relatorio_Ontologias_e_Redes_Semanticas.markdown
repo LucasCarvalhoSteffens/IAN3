@@ -22,6 +22,9 @@ Redes semânticas são grafos direcionados ou não direcionados onde:
 
 Redes semânticas são predecessoras das ontologias modernas e, embora menos formais, são amplamente usadas em processamento de linguagem natural, grafos de conhecimento e sistemas de raciocínio.
 
+## Exemplo
+![Diagrama de uma rede semantica](https://set.org.br/wp-content/uploads/2023/11/Knowledge-Graphs.png)
+
 ### Princípios Chave
 - **Interoperabilidade**: Ontologias permitem que sistemas compartilhem e reutilizem conhecimento entre plataformas.
 - **Raciocínio**: Mecanismos de inferência usam ontologias para derivar novos conhecimentos (ex.: se "João é uma Pessoa" e "Toda Pessoa é Mortal", então "João é Mortal").
@@ -208,14 +211,6 @@ consulta_recomendacao_usuario("Carol")
 consulta_filmes_por_genero("FiccaoCientifica")
 consulta_usuarios_por_genero("Acao")
 consulta_filmes_por_ano(2000)
-```
-
-### Execução
-O código está hospedado em um notebook do Google Colab: [Link para o Notebook](#). Ao executar o código, ele gera recomendações de filmes com base nos gêneros preferidos do usuário (ex.: "Inception" para um usuário que gosta de Ficção Científica).
-
-### Saída Esperada
-```
-Filme Recomendado: Inception
 ```
 
 ## Conclusão
